@@ -2,6 +2,11 @@ const express = require('express');
 const mysql = require('mysql2');
 const app = express();
 
+
+// Цей коментар додано для тестування Pull Request у 8-й лабі
+
+
+
 app.use(express.json());
 
 const db = mysql.createConnection({
